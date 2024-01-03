@@ -170,15 +170,6 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "HookGenPatcher",
-      "DisplayName": "HookGenPatcher",
-      "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
-      "Provider": "Thunderstore",
-      "Namespace": "Evaisa",
-      "Type": "BepInExPatcher",
-      "ServerHostOnly": false
-    },
-    {
       "Name": "Skinwalkers",
       "DisplayName": "Skinwalkers",
       "Description": "The monsters have learned how to mimic the voices of your friends.",
@@ -216,6 +207,15 @@
       "Namespace": "Flipmods",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "HookGenPatcher",
+      "DisplayName": "HookGenPatcher",
+      "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
+      "Provider": "Thunderstore",
+      "Namespace": "Evaisa",
+      "Type": "BepInExPatcher",
       "ServerHostOnly": false
     }
   ]
