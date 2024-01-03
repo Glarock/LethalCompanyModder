@@ -31,11 +31,11 @@
       "AlwaysHearActiveWalkies",
       "Solos_Bodycams",
       "More_Suits",
-      "HookGenPatcher",
       "Skinwalkers",
       "ReservedItemSlotCore",
       "ReservedFlashlightSlot",
-      "ReservedWalkieSlot"
+      "ReservedWalkieSlot",
+      "HookGenPatcher"
     ]
   },
   "Mods": [
@@ -170,21 +170,13 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "HookGenPatcher",
-      "DisplayName": "HookGenPatcher",
-      "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
-      "Provider": "Thunderstore",
-      "Namespace": "Evaisa",
-      "Type": "BepInExPatcher",
-      "ServerHostOnly": false
-    },
-    {
       "Name": "Skinwalkers",
       "DisplayName": "Skinwalkers",
       "Description": "The monsters have learned how to mimic the voices of your friends.",
       "Provider": "Thunderstore",
       "Namespace": "RugbugRedfern",
-      "Type": "BepInExPatcher",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
       "ServerHostOnly": false
     },
     {
@@ -193,7 +185,8 @@
       "Description": "The core mod for all ReservedItemSlot mods. Adds functionality for my ReservedItemSlot mods.",
       "Provider": "Thunderstore",
       "Namespace": "Flipmods",
-      "Type": "BepInExPatcher",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
       "ServerHostOnly": false
     },
     {
@@ -202,7 +195,8 @@
       "Description": "Gives a free, dedicated Flashlight slot on the right side of your screen. Can be toggled with [F] to activate the Flashlight at anytime.",
       "Provider": "Thunderstore",
       "Namespace": "Flipmods",
-      "Type": "BepInExPatcher",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
       "ServerHostOnly": false
     },
     {
@@ -211,6 +205,16 @@
       "Description": "Gives a free, dedicated Walkie slot on the right side of your screen. You can press [X] to activate and speak into the Walkie at anytime.",
       "Provider": "Thunderstore",
       "Namespace": "Flipmods",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "HookGenPatcher",
+      "DisplayName": "HookGenPatcher",
+      "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
+      "Provider": "Thunderstore",
+      "Namespace": "Evaisa",
       "Type": "BepInExPatcher",
       "ServerHostOnly": false
     }
