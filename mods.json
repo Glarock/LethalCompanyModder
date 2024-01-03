@@ -184,8 +184,8 @@
       "DisplayName": "ReservedItemSlotCore",
       "Description": "The core mod for all ReservedItemSlot mods. Adds functionality for my ReservedItemSlot mods.",
       "Provider": "Thunderstore",
-      "Namespace": "Flipmods",
-      "Type": "BepInExPatcher",
+      "Namespace": "FlipMods",
+      "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
     },
@@ -194,7 +194,7 @@
       "DisplayName": "ReservedFlashlightSlot",
       "Description": "Gives a free, dedicated Flashlight slot on the right side of your screen. Can be toggled with [F] to activate the Flashlight at anytime.",
       "Provider": "Thunderstore",
-      "Namespace": "Flipmods",
+      "Namespace": "FlipMods",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
@@ -204,7 +204,7 @@
       "DisplayName": "ReservedWalkieSlot",
       "Description": "Gives a free, dedicated Walkie slot on the right side of your screen. You can press [X] to activate and speak into the Walkie at anytime.",
       "Provider": "Thunderstore",
-      "Namespace": "Flipmods",
+      "Namespace": "FlipMods",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
