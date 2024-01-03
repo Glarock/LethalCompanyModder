@@ -185,7 +185,7 @@
       "Description": "The core mod for all ReservedItemSlot mods. Adds functionality for my ReservedItemSlot mods.",
       "Provider": "Thunderstore",
       "Namespace": "Flipmods",
-      "Type": "BepInExPatcher",
+      "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
     },
