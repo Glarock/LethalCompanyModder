@@ -31,11 +31,11 @@
       "AlwaysHearActiveWalkies",
       "Solos_Bodycams",
       "More_Suits",
-      "HookGenPatcher",
       "Skinwalkers",
       "ReservedItemSlotCore",
       "ReservedFlashlightSlot",
-      "ReservedWalkieSlot"
+      "ReservedWalkieSlot",
+      "HookGenPatcher"
     ]
   },
   "Mods": [
