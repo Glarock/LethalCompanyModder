@@ -140,7 +140,7 @@ function Invoke-StartWaitStopProcess {
 #region ---- Definition of mods for Lethal Company
 $ModsData = $(switch ($PSCmdlet.ParameterSetName) {
         "Curated" {
-            Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Indaclouds/LethalCompanyModder/$GitBranch/mods.json" | Select-Object -ExpandProperty Content
+            Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Glarock/LethalCompanyModder/$GitBranch/mods.json" | Select-Object -ExpandProperty Content
         }
         "Custom" {
             Get-Content -Path $File -Raw
