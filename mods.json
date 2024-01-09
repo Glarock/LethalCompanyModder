@@ -220,14 +220,22 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "More_Emotes",
-      "DisplayName": "More_Emotes",
-      "Description": "Adds more emotes !",
+      "Name": "LethalCompany_InputUtils",
+      "DisplayName": "LethalCompany_InputUtils",
+      "Description": "Utilities for creating InputActions and having them be accessible in game",
       "Provider": "Thunderstore",
-      "Namespace": "Sligili",
+      "Namespace": "Rune580",
+      "Type": "BepInExPlugin",
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "BetterEmotes",
+      "DisplayName": "BetterEmotes",
+      "Description": "Alters the integration method of more emotes and adds some config options",
+      "Provider": "Thunderstore",
+      "Namespace": "KlutzyBubbles",
       "Type": "BepInExPlugin",
       "ServerHostOnly": false
     }
-
   ]
 }
