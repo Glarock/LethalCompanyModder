@@ -218,6 +218,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
       "ServerHostOnly": false
     },
     {
@@ -227,6 +228,7 @@
       "Provider": "Thunderstore",
       "Namespace": "KlutzyBubbles",
       "Type": "BepInExPlugin",
+      "ExtraIncludes": ["BepInEx\\plugins\\LethalCompany_InputUtils"],
       "ServerHostOnly": false
     },
     {
