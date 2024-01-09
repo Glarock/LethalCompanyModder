@@ -212,15 +212,6 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "HookGenPatcher",
-      "DisplayName": "HookGenPatcher",
-      "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
-      "Provider": "Thunderstore",
-      "Namespace": "Evaisa",
-      "Type": "BepInExPatcher",
-      "ServerHostOnly": false
-    },
-    {
       "Name": "LethalCompany_InputUtils",
       "DisplayName": "LethalCompany_InputUtils",
       "Description": "Utilities for creating InputActions and having them be accessible in game",
@@ -236,6 +227,15 @@
       "Provider": "Thunderstore",
       "Namespace": "KlutzyBubbles",
       "Type": "BepInExPlugin",
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "HookGenPatcher",
+      "DisplayName": "HookGenPatcher",
+      "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
+      "Provider": "Thunderstore",
+      "Namespace": "Evaisa",
+      "Type": "BepInExPatcher",
       "ServerHostOnly": false
     }
   ]
