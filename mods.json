@@ -36,7 +36,8 @@
       "ReservedFlashlightSlot",
       "ReservedWalkieSlot",
       "HookGenPatcher",
-      "BetterEmotes"
+      "BetterEmotes",
+      "LethalCompanyInputUtils"
     ]
   },
   "Mods": [
@@ -220,7 +221,7 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "LethalCompany InputUtils",
+      "Name": "LethalCompanyInputUtils",
       "DisplayName": "LethalCompany InputUtils",
       "Description": "Utilities for creating InputActions and having them be accessible in game",
       "Provider": "Thunderstore",
