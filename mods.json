@@ -35,9 +35,9 @@
       "ReservedItemSlotCore",
       "ReservedFlashlightSlot",
       "ReservedWalkieSlot",
-      "HookGenPatcher",
       "LethalCompany_InputUtils",
-      "BetterEmotes"
+      "BetterEmotes",
+      "HookGenPatcher"
     ]
   },
   "Mods": [
