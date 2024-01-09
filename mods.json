@@ -35,7 +35,8 @@
       "ReservedItemSlotCore",
       "ReservedFlashlightSlot",
       "ReservedWalkieSlot",
-      "HookGenPatcher"
+      "HookGenPatcher",
+      "BetterEmotes"
     ]
   },
   "Mods": [
@@ -215,6 +216,15 @@
       "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
       "Provider": "Thunderstore",
       "Namespace": "Evaisa",
+      "Type": "BepInExPatcher",
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "BetterEmotes",
+      "DisplayName": "BetterEmotes",
+      "Description": "Alters the integration method of more emotes and adds some config options",
+      "Provider": "Thunderstore",
+      "Namespace": "KlutzyBubbles",
       "Type": "BepInExPatcher",
       "ServerHostOnly": false
     }
