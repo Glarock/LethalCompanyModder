@@ -37,7 +37,7 @@
       "ReservedWalkieSlot",
       "HookGenPatcher",
       "BetterEmotes",
-      "LethalCompanyInputUtils"
+      "LethalCompany_InputUtils"
     ]
   },
   "Mods": [
@@ -222,7 +222,7 @@
     },
     {
       "Name": "LethalCompany_InputUtils",
-      "DisplayName": "LethalCompany InputUtils",
+      "DisplayName": "LethalCompany_InputUtils",
       "Description": "Utilities for creating InputActions and having them be accessible in game",
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
