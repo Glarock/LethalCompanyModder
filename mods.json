@@ -220,6 +220,15 @@
       "ServerHostOnly": false
     },
     {
+      "Name": "LethalCompany InputUtils",
+      "DisplayName": "LethalCompany InputUtils",
+      "Description": "Utilities for creating InputActions and having them be accessible in game",
+      "Provider": "Thunderstore",
+      "Namespace": "Rune580",
+      "Type": "BepInExPatcher",
+      "ServerHostOnly": false
+    },
+    {
       "Name": "BetterEmotes",
       "DisplayName": "BetterEmotes",
       "Description": "Alters the integration method of more emotes and adds some config options",
@@ -228,5 +237,6 @@
       "Type": "BepInExPatcher",
       "ServerHostOnly": false
     }
+
   ]
 }
