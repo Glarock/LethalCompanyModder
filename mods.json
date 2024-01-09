@@ -225,7 +225,7 @@
       "Description": "Adds more emotes !",
       "Provider": "Thunderstore",
       "Namespace": "Sligili",
-      "Type": "BepInExPatcher",
+      "Type": "BepInExPlugin",
       "ServerHostOnly": false
     }
 
