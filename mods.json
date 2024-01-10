@@ -211,11 +211,21 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "More_Emotes",
+      "Name": "Runtime Netcode Patcher",
       "DisplayName": "More Emotes",
       "Description": " Adds even more emotes",
       "Provider": "Thunderstore",
       "Namespace": "Sligili",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "More_Emotes",
+      "DisplayName": "More Emotes",
+      "Description": "Patches Netcode RPC methods during runtime utilizing Harmony",
+      "Provider": "Thunderstore",
+      "Namespace": "Ozone",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
