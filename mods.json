@@ -211,8 +211,8 @@
       "ServerHostOnly": false
     },
     {
-      "Name": "Runtime Netcode Patcher",
-      "DisplayName": "More Emotes",
+      "Name": "Runtime_Netcode_Patcher",
+      "DisplayName": "Runtime Netcode Patcher",
       "Description": "Patches Netcode RPC methods during runtime utilizing Harmony",
       "Provider": "Thunderstore",
       "Namespace": "Ozone",
