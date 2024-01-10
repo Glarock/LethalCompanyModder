@@ -213,9 +213,9 @@
     {
       "Name": "Runtime Netcode Patcher",
       "DisplayName": "More Emotes",
-      "Description": " Adds even more emotes",
+      "Description": "Patches Netcode RPC methods during runtime utilizing Harmony",
       "Provider": "Thunderstore",
-      "Namespace": "Sligili",
+      "Namespace": "Ozone",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
@@ -223,9 +223,9 @@
     {
       "Name": "More_Emotes",
       "DisplayName": "More Emotes",
-      "Description": "Patches Netcode RPC methods during runtime utilizing Harmony",
+      "Description": "Adds even more emotes",
       "Provider": "Thunderstore",
-      "Namespace": "Ozone",
+      "Namespace": "Sligili",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
