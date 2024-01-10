@@ -36,7 +36,9 @@
       "ReservedFlashlightSlot",
       "ReservedWalkieSlot",
       "LethalCompany_InputUtils",
-      "More_Emotes"
+      "More_Emotes",
+      "Runtime_Netcode_Patcher",
+      "HookGenPatcher"
     ]
   },
   "Mods": [
