@@ -39,6 +39,7 @@
       "More_Emotes",
       "Runtime_Netcode_Patcher",
       "HookGenPatcher"
+      "YippeeMod"
     ]
   },
   "Mods": [
@@ -208,6 +209,16 @@
       "Description": "Gives a free, dedicated Walkie slot on the right side of your screen. You can press [X] to activate and speak into the Walkie at anytime.",
       "Provider": "Thunderstore",
       "Namespace": "FlipMods",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "YippeeMod",
+      "DisplayName": "YippeeMod",
+      "Description": "Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound",
+      "Provider": "Thunderstore",
+      "Namespace": "sunnobunno",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
