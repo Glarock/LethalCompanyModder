@@ -220,7 +220,7 @@
       "Provider": "Thunderstore",
       "Namespace": "sunnobunno",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": [],
+      "ExtraIncludes": ["BepInEx\\plugins"],
       "ServerHostOnly": false
     },
     {
