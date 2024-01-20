@@ -39,7 +39,11 @@
       "More_Emotes",
       "YippeeMod",
       "Runtime_Netcode_Patcher",
-      "HookGenPatcher"
+      "HookGenPatcher",
+      "LethalEmotesAPI",
+      "LethalConfig",
+      "LethalCompany InputUtils",
+      "broiilers silly emotes"
     ]
   },
   "Mods": [
