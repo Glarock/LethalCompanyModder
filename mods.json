@@ -259,7 +259,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins"],
+      "ExtraIncludes": ["\\plugins"],
       "ServerHostOnly": false
     },
     {
@@ -269,7 +269,7 @@
       "Provider": "Thunderstore",
       "Namespace": "AinaVT",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins"],
+      "ExtraIncludes": ["\\plugins"],
       "ServerHostOnly": false
     },
     {
@@ -289,7 +289,7 @@
       "Provider": "Thunderstore",
       "Namespace": "broiiler",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["pBepInEx\\plugins"],
+      "ExtraIncludes": ["\\plugins"],
       "ServerHostOnly": false
     },
     {
