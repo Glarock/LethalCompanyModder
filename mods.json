@@ -240,7 +240,7 @@
       "Provider": "Thunderstore",
       "Namespace": "sunnobunno",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins\\"],
+      "ExtraIncludes": ["BepInEx\\plugins\\yippeesound"],
       "ServerHostOnly": false
     },
     {
