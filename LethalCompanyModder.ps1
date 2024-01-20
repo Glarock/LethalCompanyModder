@@ -326,6 +326,14 @@ foreach ($mod in $ThunderstoreMods) {
                     }
                 }
             }
+            "BepInExPluginAlt" {
+                Write-Debug -Message ("{0} {1}: Copy all files to `"{2}`"." -f $mod.Type, $FullName, $BepInEx.PluginsDirectory)
+                foreach ($item in $mod.ExtraIncludes) {
+                    $Path = Join-Path -Path $TempPackage -ChildPath $item
+                    Write-Debug -Message ("{0} {1}: Copy `"{2}`" to `"{3}`"." -f $mod.Type, $FullName, $item, $BepInEx.PluginsDirectory)
+                    Move-Item -Path $Path -Destination $BepInEx.PluginsDirectory
+                }
+            }
             Default { Write-Warning -Message ("Unknown `"{0}`" mod type for {1}. Skip." -f $mod.Type, $FullName) }
         }
     }

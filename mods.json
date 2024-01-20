@@ -257,7 +257,7 @@
       "Description": "Utilities for creating InputActions and providing an (opinionated) improved UI.",
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
-      "Type": "BepInExPlugin",
+      "Type": "BepInExPluginAlt",
       "ExtraIncludes": ["plugins\\LethalCompanyInputUtils"],
       "ServerHostOnly": false
     },
@@ -267,7 +267,7 @@
       "Description": "Provides an in-game config menu for players to edit their configs, and an API for other mods to use and customize their entries.",
       "Provider": "Thunderstore",
       "Namespace": "AinaVT",
-      "Type": "BepInExPlugin",
+      "Type": "BepInExPluginAlt",
       "ExtraIncludes": ["plugins\\LethalConfig"],
       "ServerHostOnly": false
     },
@@ -277,7 +277,7 @@
       "Description": "API for adding emotes to Lethal Company",
       "Provider": "Thunderstore",
       "Namespace": "Gemumoddo",
-      "Type": "BepInExPlugin",
+      "Type": "BepInExPluginAlt",
       "ExtraIncludes": [],
       "ServerHostOnly": false
     },
@@ -287,7 +287,7 @@
       "Description": "Custom emotes i made for more fun! hope you like them, currently 35 emotes total",
       "Provider": "Thunderstore",
       "Namespace": "broiiler",
-      "Type": "BepInExPlugin",
+      "Type": "BepInExPluginAlt",
       "ExtraIncludes": ["plugins"],
       "ServerHostOnly": false
     },
