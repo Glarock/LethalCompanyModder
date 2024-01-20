@@ -278,7 +278,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Gemumoddo",
       "Type": "BepInExPluginAlt",
-      "ExtraIncludes": [],
+      "ExtraIncludes": ["LethalEmotesApi"],
       "ServerHostOnly": false
     },
     {
