@@ -42,7 +42,8 @@
       "LethalCompany_InputUtils",
       "LethalEmotesAPI",
       "LethalConfig",
-      "broiilers_silly_emotes"
+      "broiilers_silly_emotes",
+      "DanceOff"
     ],
     "Test": [
       "LethalCompany_InputUtils",
