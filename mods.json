@@ -253,7 +253,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["LethalCompanyInputUtils"],
+      "ExtraIncludes": ["plugins\\LethalCompanyInputUtils"],
       "ServerHostOnly": false
     },
     {
