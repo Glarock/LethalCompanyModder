@@ -300,8 +300,8 @@
       "Description": "Adds a few dance emotes and support for custom dances.",
       "Provider": "Thunderstore",
       "Namespace": "TwinDimensionalProductions",
-      "Type": "BepInExPluginAlt",
-      "ExtraIncludes": ["//"],
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": ["plugins\\Animations"],
       "ServerHostOnly": false
     },
     {
