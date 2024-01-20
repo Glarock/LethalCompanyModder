@@ -48,7 +48,8 @@
       "LethalCompany_InputUtils",
       "LethalConfig",
       "LethalEmotesAPI",
-      "broiilers_silly_emotes"
+      "broiilers_silly_emotes",
+      "DanceOff"
     ]
   },
   "Mods": [
@@ -288,6 +289,16 @@
       "Description": "Custom emotes i made for more fun! hope you like them, currently 35 emotes total",
       "Provider": "Thunderstore",
       "Namespace": "broiiler",
+      "Type": "BepInExPluginAlt",
+      "ExtraIncludes": ["plugins"],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "DanceOff",
+      "DisplayName": "DanceOff",
+      "Description": "Adds a few dance emotes and support for custom dances.",
+      "Provider": "Thunderstore",
+      "Namespace": "TwinDimensionalProductions",
       "Type": "BepInExPluginAlt",
       "ExtraIncludes": ["plugins"],
       "ServerHostOnly": false
