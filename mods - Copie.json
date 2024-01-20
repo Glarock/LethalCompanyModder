@@ -2,7 +2,13 @@
   "Presets": {
     "Default": [
       "MoreCompany",
-      "YippeeMod"
+      "LateCompany",
+      "ShipLoot",
+      "HealthMetrics",
+      "TerminalApi",
+      "Terminal_Clock",
+      "LBtoKG",
+      "AlwaysHearActiveWalkies"
     ],
     "Hardcore": [
       "MoreCompany",
@@ -34,6 +40,9 @@
       "YippeeMod",
       "Runtime_Netcode_Patcher",
       "HookGenPatcher"
+    ],
+    "Yippee": [
+      "YippeeMod"
     ]
   },
   "Mods": [
