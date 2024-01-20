@@ -47,7 +47,8 @@
     "Test": [
       "LethalCompany_InputUtils",
       "LethalConfig",
-      "LethalEmotesAPI"
+      "LethalEmotesAPI",
+      "broiilers_silly_emotes"
     ]
   },
   "Mods": [
