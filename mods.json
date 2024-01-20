@@ -35,20 +35,17 @@
       "ReservedItemSlotCore",
       "ReservedFlashlightSlot",
       "ReservedWalkieSlot",
-      "LethalCompany_InputUtils",
       "More_Emotes",
       "YippeeMod",
       "Runtime_Netcode_Patcher",
       "HookGenPatcher",
+      "LethalCompany_InputUtils",
       "LethalEmotesAPI",
       "LethalConfig",
       "broiilers_silly_emotes"
     ],
     "Test": [
-      "LethalCompany_InputUtils",
-      "LethalEmotesAPI",
-      "LethalConfig",
-      "broiilers_silly_emotes"
+      "LethalCompany_InputUtils"
     ]
   },
   "Mods": [
@@ -259,7 +256,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["\\plugins"],
+      "ExtraIncludes": ["plugins"],
       "ServerHostOnly": false
     },
     {
@@ -269,7 +266,7 @@
       "Provider": "Thunderstore",
       "Namespace": "AinaVT",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["\\plugins"],
+      "ExtraIncludes": ["plugins"],
       "ServerHostOnly": false
     },
     {
@@ -289,7 +286,7 @@
       "Provider": "Thunderstore",
       "Namespace": "broiiler",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["\\plugins"],
+      "ExtraIncludes": ["plugins"],
       "ServerHostOnly": false
     },
     {
