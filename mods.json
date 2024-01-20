@@ -37,6 +37,7 @@
       "ReservedWalkieSlot",
       "LethalCompany_InputUtils",
       "More_Emotes",
+      "YippeeMod",
       "Runtime_Netcode_Patcher",
       "HookGenPatcher"
     ]
@@ -230,6 +231,16 @@
       "Namespace": "Sligili",
       "Type": "BepInExPlugin",
       "ExtraIncludes": ["BepInEx\\plugins\\MoreEmotes"],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "YippeeMod",
+      "DisplayName": "YippeeMod",
+      "Description": "Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound",
+      "Provider": "Thunderstore",
+      "Namespace": "sunnobunno",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": ["BepInEx\\plugins\\"],
       "ServerHostOnly": false
     },
     {
