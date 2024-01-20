@@ -253,7 +253,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins\\LethalCompanyInputUtils"],
+      "ExtraIncludes": ["\\plugins\\LethalCompanyInputUtils"],
       "ServerHostOnly": false
     },
     {
@@ -263,7 +263,7 @@
       "Provider": "Thunderstore",
       "Namespace": "AinaVT",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins\\LethalConfig"],
+      "ExtraIncludes": ["\\plugins\\LethalConfig"],
       "ServerHostOnly": false
     },
     {
@@ -273,7 +273,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Gemumoddo",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins\\LethalEmotesApi"],
+      "ExtraIncludes": ["\\LethalEmotesApi"],
       "ServerHostOnly": false
     },
     {
@@ -283,7 +283,7 @@
       "Provider": "Thunderstore",
       "Namespace": "broiiler",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["BepInEx\\plugins\\broiilers-silly-emotes"],
+      "ExtraIncludes": ["\\plugins\\broiilers-silly-emotes"],
       "ServerHostOnly": false
     },
     {
