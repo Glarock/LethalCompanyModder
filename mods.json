@@ -2,7 +2,13 @@
   "Presets": {
     "Default": [
       "MoreCompany",
-      "YippeeMod"
+      "LateCompany",
+      "ShipLoot",
+      "HealthMetrics",
+      "TerminalApi",
+      "Terminal_Clock",
+      "LBtoKG",
+      "AlwaysHearActiveWalkies"
     ],
     "Hardcore": [
       "MoreCompany",
@@ -235,6 +241,46 @@
       "Namespace": "sunnobunno",
       "Type": "BepInExPlugin",
       "ExtraIncludes": ["yippeesound"],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "LethalCompany InputUtils",
+      "DisplayName": "LethalCompany InputUtils",
+      "Description": "Utilities for creating InputActions and providing an (opinionated) improved UI.",
+      "Provider": "Thunderstore",
+      "Namespace": "Rune580",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "LethalConfig",
+      "DisplayName": "LethalConfig",
+      "Description": "Provides an in-game config menu for players to edit their configs, and an API for other mods to use and customize their entries.",
+      "Provider": "Thunderstore",
+      "Namespace": "AinaVT",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "LethalEmotesAPI",
+      "DisplayName": "LethalEmotesAPI",
+      "Description": "API for adding emotes to Lethal Company",
+      "Provider": "Thunderstore",
+      "Namespace": "Gemumoddo",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "broiilers silly emotes",
+      "DisplayName": "broiilers silly emotes",
+      "Description": "Custom emotes i made for more fun! hope you like them, currently 35 emotes total",
+      "Provider": "Thunderstore",
+      "Namespace": "broiiler",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
       "ServerHostOnly": false
     },
     {
