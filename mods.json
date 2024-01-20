@@ -266,7 +266,7 @@
       "Provider": "Thunderstore",
       "Namespace": "AinaVT",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["plugins"],
+      "ExtraIncludes": ["plugins\\LethalConfig"],
       "ServerHostOnly": false
     },
     {
