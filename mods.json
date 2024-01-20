@@ -43,6 +43,12 @@
       "LethalEmotesAPI",
       "LethalConfig",
       "broiilers_silly_emotes"
+    ],
+    "Test": [
+      "LethalCompany_InputUtils",
+      "LethalEmotesAPI",
+      "LethalConfig",
+      "broiilers_silly_emotes"
     ]
   },
   "Mods": [
@@ -253,7 +259,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["plugins"],
+      "ExtraIncludes": ["BepInEx\\plugins"],
       "ServerHostOnly": false
     },
     {
@@ -263,7 +269,7 @@
       "Provider": "Thunderstore",
       "Namespace": "AinaVT",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["plugins"],
+      "ExtraIncludes": ["BepInEx\\plugins"],
       "ServerHostOnly": false
     },
     {
@@ -283,7 +289,7 @@
       "Provider": "Thunderstore",
       "Namespace": "broiiler",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["plugins"],
+      "ExtraIncludes": ["pBepInEx\\plugins"],
       "ServerHostOnly": false
     },
     {
