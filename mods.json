@@ -45,7 +45,9 @@
       "broiilers_silly_emotes"
     ],
     "Test": [
-      "LethalConfig"
+      "LethalCompany_InputUtils",
+      "LethalConfig",
+      "LethalEmotesAPI"
     ]
   },
   "Mods": [
@@ -256,7 +258,7 @@
       "Provider": "Thunderstore",
       "Namespace": "Rune580",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": ["plugins"],
+      "ExtraIncludes": ["plugins\\LethalCompanyInputUtils"],
       "ServerHostOnly": false
     },
     {
