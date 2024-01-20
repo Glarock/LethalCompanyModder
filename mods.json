@@ -301,7 +301,7 @@
       "Provider": "Thunderstore",
       "Namespace": "TwinDimensionalProductions",
       "Type": "BepInExPluginAlt",
-      "ExtraIncludes": [],
+      "ExtraIncludes": ["//"],
       "ServerHostOnly": false
     },
     {
