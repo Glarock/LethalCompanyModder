@@ -23,6 +23,8 @@
     "Experimental": [
       "MoreCompany",
       "LateCompany",
+	  "LCSoundTool",
+	  "CustomSounds",
       "ShipLoot",
       "HealthMetrics",
       "TerminalApi",
@@ -39,11 +41,19 @@
       "YippeeMod",
       "Runtime_Netcode_Patcher",
       "HookGenPatcher",
+	  "LethalLib",
       "LethalCompany_InputUtils",
       "LethalEmotesAPI",
       "LethalConfig",
       "broiilers_silly_emotes",
-      "DanceOff"
+      "DanceOff",
+	  "inacraft_cosmetics_megapack",
+	  "NeedyCats",
+	  "MirrorDecor",
+	  "DiscountAlert",
+	  "FairAI",
+	  "KarmaForBeingAnnoying",
+	  "Metal_Gear_Turret_Sound"
     ],
     "Test": [
       "LethalCompany_InputUtils",
@@ -60,6 +70,26 @@
       "Description": "Increase the max player count",
       "Provider": "Thunderstore",
       "Namespace": "notnotnotswipez",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "LCSoundTool",
+      "DisplayName": "LCSoundTool",
+      "Description": "Let's you easily load audio file",
+      "Provider": "Thunderstore",
+      "Namespace": "no00ob",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "CustomSounds",
+      "DisplayName": "CustomSounds",
+      "Description": "Let's you easily load audio file",
+      "Provider": "Thunderstore",
+      "Namespace": "Clementinise",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
@@ -90,6 +120,26 @@
       "Description": "Add a simple health counter on your HUD",
       "Provider": "Thunderstore",
       "Namespace": "matsuura",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "FairAI",
+      "DisplayName": "FairAI",
+      "Description": "Mod To Make Entities Less Racist.",
+      "Provider": "Thunderstore",
+      "Namespace": "TheFluff",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "KarmaForBeingAnnoying",
+      "DisplayName": "KarmaForBeingAnnoying",
+      "Description": "Adds a 10% chance of exploding if you use annoying Items like the Airhorn, Clownhorn or Remote. Now customizable!",
+      "Provider": "Thunderstore",
+      "Namespace": "CTMods",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
@@ -182,6 +232,56 @@
       "Namespace": "x753",
       "Type": "BepInExPlugin",
       "ExtraIncludes": ["BepInEx\\plugins\\moresuits"],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "inacraft_cosmetics_megapack",
+      "DisplayName": "inacraft cosmetics megapack",
+      "Description": "Add more cosmetics",
+      "Provider": "Thunderstore",
+      "Namespace": "broiiler",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": ["BepInEx\\plugins\\MoreCompanyCosmetics"],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "Metal_Gear_Turret_Sound",
+      "DisplayName": "Metal Gear Turret Sound",
+      "Description": "You've been spotted!",
+      "Provider": "Thunderstore",
+      "Namespace": "LethalMatt",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": ["BepInEx\\plugins\\CustomSounds"],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "NeedyCats",
+      "DisplayName": "NeedyCats",
+      "Description": "You like cats? The company likes cats too! Find them roaming the various abandoned facilities and bring them home!",
+      "Provider": "Thunderstore",
+      "Namespace": "Jordo",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "MirrorDecor",
+      "DisplayName": "MirrorDecor",
+      "Description": "Adds a working mirror decoration that you can buy for your ship!",
+      "Provider": "Thunderstore",
+      "Namespace": "quackandcheese",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "DiscountAlert",
+      "DisplayName": "DiscountAlert",
+      "Description": "Alerts you which items have a discount when the round begins.",
+      "Provider": "Thunderstore",
+      "Namespace": "akechii",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
       "ServerHostOnly": false
     },
     {
@@ -308,6 +408,15 @@
       "Name": "HookGenPatcher",
       "DisplayName": "HookGenPatcher",
       "Description": "Generate MMHOOK file during the BepInEx preloader phase.",
+      "Provider": "Thunderstore",
+      "Namespace": "Evaisa",
+      "Type": "BepInExPatcher",
+      "ServerHostOnly": false
+    },
+    {
+      "Name": "LethalLib",
+      "DisplayName": "LethalLib",
+      "Description": "Personal modding tools for Lethal Company.",
       "Provider": "Thunderstore",
       "Namespace": "Evaisa",
       "Type": "BepInExPatcher",
