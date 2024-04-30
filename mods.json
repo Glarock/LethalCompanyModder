@@ -271,7 +271,7 @@
       "Provider": "Thunderstore",
       "Namespace": "quackandcheese",
       "Type": "BepInExPlugin",
-      "ExtraIncludes": [mirror.assets],
+      "ExtraIncludes": ["mirror.assets"],
       "ServerHostOnly": false
     },
 	{
