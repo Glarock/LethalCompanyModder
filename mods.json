@@ -272,7 +272,7 @@
       "Namespace": "quackandcheese",
       "Type": "BepInExPlugin",
       "ExtraIncludes": ["mirror.assets"],
-      "ServerHostOnly": false
+      "ServerHostOnly": true
     },
 	{
       "Name": "DiscountAlert",
