@@ -419,7 +419,7 @@
       "Description": "Personal modding tools for Lethal Company.",
       "Provider": "Thunderstore",
       "Namespace": "Evaisa",
-      "Type": "BepInExPatcher",
+      "Type": "BepInExPlugin",
       "ServerHostOnly": false
     }
   ]
