@@ -73,6 +73,16 @@
       "ExtraIncludes": [],
       "ServerHostOnly": false
     },
+	{
+      "Name": "OuijaBoard",
+      "DisplayName": "OuijaBoard",
+      "Description": "Give the dead the ability to communicate through a Ouija Board.",
+      "Provider": "Thunderstore",
+      "Namespace": "Electric131",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
     {
       "Name": "HealthMetrics",
       "DisplayName": "HealthMetrics",
