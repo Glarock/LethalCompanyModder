@@ -39,6 +39,7 @@
       "ReservedWalkieSlot",
       "More_Emotes",
       "YippeeMod",
+	  "OuijaBoard",
       "Runtime_Netcode_Patcher",
       "HookGenPatcher",
 	  "LethalLib",
@@ -110,6 +111,16 @@
       "Description": "Display the total scrap value on the ship",
       "Provider": "Thunderstore",
       "Namespace": "tinyhoot",
+      "Type": "BepInExPlugin",
+      "ExtraIncludes": [],
+      "ServerHostOnly": false
+    },
+	{
+      "Name": "OuijaBoard",
+      "DisplayName": "OuijaBoard",
+      "Description": "Give the dead the ability to communicate through a Ouija Board.",
+      "Provider": "Thunderstore",
+      "Namespace": "Electric131",
       "Type": "BepInExPlugin",
       "ExtraIncludes": [],
       "ServerHostOnly": false
